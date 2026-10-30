@@ -125,12 +125,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constructor de Árboles Binarios</title>
+    <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <a class="volver" href="index.php">volver al menu principal</a> 
+    <a class="volver" href="../index.php">Volver al menú principal</a>
 
     <h2>Construir Árbol Binario</h2> 
     <p>Ingresa al menos dos recorridos separados por comas (Ej: A, B, D, E o 1, 2, 4, 5):</p>

@@ -75,9 +75,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saca promedio, mediana y moda</title>
+    <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
-     <a class="volver" href="index.php">Volver al menú principal</a>
+    <a class="volver" href="../index.php">Volver al menú principal</a>
 
    <form method="POST" action="#">
         <label for="numeros">Ingrese números reales (separados por comas):</label>

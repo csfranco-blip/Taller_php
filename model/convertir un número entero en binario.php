@@ -29,10 +29,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>conversión de nuemeros enteros a bianarios</title>
+    <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
 
-     <a class="volver" href="index.php">Volver al menú principal</a>
+     <a class="volver" href="../index.php">Volver al menú principal</a>
 
     <form method="POST" action="#">
         <div>

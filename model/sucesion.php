@@ -54,12 +54,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcular Sucesión o Factorial</title>
+    <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
 
-    <a class="volver" href="index.php">Volver al menú principal</a>
+    <a class="volver" href="../index.php">Volver al menú principal</a>
 
-    <form method="POST" action="sucecion de fibonacci o factorial.php">
+    <form method="POST" action="sucesion.php">
         <div class="form-group">
             <label Lothar for="numero">Ingrese un número entero positivo:</label><br>
             <input type="number" id="numero" name="numero" min="0" value="<?php echo htmlspecialchars($numero); ?>" required>

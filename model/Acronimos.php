@@ -25,9 +25,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['frase'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>generador de Acronimos</title>
+    <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
-    <a class="volver"href="index.php">volver al menu principal</a>
+
+    <a class="volver" href="../index.php">Volver al menú principal</a>
+
     <form method="POST"action="Acronimos.php">
         <div>
         <label for="frase">ingrese la frase o texto largo</label><br>
