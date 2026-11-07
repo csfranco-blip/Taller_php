@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form method="POST" action="#">
         <div>
-        <label for="convertir">Ingerse un numero entero para convertirlo en bianario</label>
+        <label for="convertir">Ingrese un número entero para convertirlo en bianario</label>
         <input type="number" name="convertir" id="convertir" value="<?php echo htmlspecialchars($numero); ?>" required>
         <button type="submit">convertir</button>
         </div>

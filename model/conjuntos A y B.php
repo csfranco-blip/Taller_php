@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $resultados = [
         'A' => $A,
         'B' => $B,
-        'union' => array_unique(array_merge($A, $B)),
+        'unión' => array_unique(array_merge($A, $B)),
         'interseccion' => array_intersect($A, $B),
         'diffAB' => array_diff($A, $B),
         'diffBA' => array_diff($B, $A)
@@ -58,7 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <p>Conjunto A:[<?php echo implode(", ", $resultados['A']); ?>]</p>
         <p>Conjunto B:[<?php echo implode(", ", $resultados['B']); ?>]</p>
         <hr>
-        <p>Unión (A ∪ B):[<?php echo implode(", ", $resultados['interseccion']); ?>]</p>
+        <p>Unión (A ∪ B):[<?php echo implode(", ", $resultados['unión']); ?>]</p>
+        <p>Intersección:[<?php echo implode(", ", $resultados['interseccion']); ?>]</p>
         <p>Diferencia (A - B):[<?php echo implode(", ", $resultados['diffAB']); ?>]</p>
         <p>Diferencia (B - A):[<?php echo implode(", ", $resultados['diffBA']); ?>]</p>
     </div>
