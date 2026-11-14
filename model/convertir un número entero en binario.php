@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conversión de nuemeros enteros a bianarios</title>
+    <title>conversión de nuemeros enteros a binarios</title>
     <link rel="stylesheet" href="../view/css/style.css">
 </head>
 <body>
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form method="POST" action="#">
         <div>
-        <label for="convertir">Ingrese un número entero para convertirlo en bianario</label>
+        <label for="convertir">Ingrese un número entero para convertirlo en binario</label>
         <input type="number" name="convertir" id="convertir" value="<?php echo htmlspecialchars($numero); ?>" required>
         <button type="submit">convertir</button>
         </div>
